@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+     display: flex;
+     justify-content: space-between;
+     margin: 0 10px;
+}
+.logoIMG{
+    height: 55px;
+    width: auto;
+    position: fixed;
+    left: 40px;
+    top: -5px;
+}
+.sarchBar{
+    
+    padding: 10px;
+    font-size: 14px;
+    width: 500px;
+    border-radius: 90px;
+    position: fixed;
+    top: 10px;
+    left: 360px;
+    /* border: 2px rgb(59, 57, 57); */
+}
+.searchicon{
+    height: 25px;
+    width: auto;
+    z-index: 100;
+    position: fixed;
+    top: 15px;
+    right: 440px;
+    background-color:#f2f2f2 ;
+}
+.mic{
+    height: 25px;
+    width: auto;
+    position: fixed;
+    left: 880px;
+    top: 15px;
+    background-color: #f2f2f2;
+    
+    border-radius: 50%;
+    
+    
+}
+.MenuIcon{
+    height: 20px;
+    position: fixed;
+    top: 10px; 
+   
+
+}
+.bell{
+    height:23px;
+    position: fixed;
+    top: 12px;
+    right: 80px;
+   
+}
+
+.loginICon{
+
+    color: white;
+      background-color: rgb(91, 39, 39);
+      border-radius: 50%;
+      padding: 5px;
+      position: fixed;
+      top: 10px;
+      right: 30px;
+}
+/* side bar */
+.sideBarcontainar{
+    width: 200px;
+    height: 90vh;
+    position: fixed;
+    top: 60px;
+    left: 7px;
+    /* background-color: red; */
+    overflow-y: scroll;
+}
+.sideBarContent{
+    display: flex;
+    flex-direction: column;
+}
+.sideBarContent a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin:5px;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sideBarContent a:hover{
+    background-color: #f2f2f2;
+    transition: 0.3s;
+    border-radius: 90px;
+}
+.sideBarContent img{
+    height: 23px;
+    width: auto;
+
+}
+.sideBarContent h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left:40px;
+    margin-top: -22px;
+}
+  /* tags section */
+  .tagsBarContainer{
+    height: 30px;
+    width: 85vw;
+    position: fixed;
+    top: 65px;
+    left:230px;
+    /* overflow-x: scroll; */
+  }
+  .tagsBarContainer a{
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:3px 10px ;
+    color: black;
+    background-color: #f2f2f2;
+    border-radius: 9px;
+    
+  }
+  /* vidios section */
+  .vidiosContainer{
+    position:fixed;
+    top:100px ;
+    left: 230px;
+    width: 83vw;
+    height: 100vh;
+    overflow-y:scroll;
+  }
+  
+  iframe{
+      border-radius:9px;
+      height: 200px;
+      width: auto;
+      padding-left: 10px;
+      margin-left: 10px;
+      margin-top: 5px;
+  }
